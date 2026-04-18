@@ -6,15 +6,19 @@ Built around 25 synthetic phone call transcripts (15 fraud, 10 non-fraud) evalua
 
 ---
 
-## Independent Work Disclosure
+## About This Project
 
-This project was conceived, designed, and developed entirely by Sweta Mankala as an independent personal research initiative.
+TraceGuard is an independent educational research project conceived, designed, and authored solely by Sweta Mankala. It was created to explore publicly available AI evaluation methodologies and is intended for publication as a research article.
 
-- Developed exclusively on personal time, outside of any employment hours
-- No employer equipment, systems, facilities, or resources were used at any stage
-- Contains no proprietary information, trade secrets, or confidential data belonging to any employer or third party
-- All transcripts are fully synthetic and were created solely for this research; they do not represent or derive from any real individuals, organisations, or cases
-- This project is not affiliated with, endorsed by, or connected to any current or former employer
+All intellectual property in this project — including its experimental design, evaluation framework, methodology, and implementation — is the original work of and exclusively owned by Sweta Mankala.
+
+This project was developed independently:
+- Conceived and built on personal time using personal equipment and resources only
+- Based entirely on publicly available tools, libraries, and research literature
+- No proprietary information, confidential data, or trade secrets of any employer or third party were used or incorporated at any stage
+- All transcripts are fully synthetic, created solely for this research, and do not represent any real individuals, organisations, or events
+
+This project is not affiliated with, sponsored by, or connected to any employer, past or present. Any future use, adaptation, or commercialisation of the ideas, methods, or code in this repository by any third party requires the explicit written consent of Sweta Mankala.
 
 © 2026 Sweta Mankala. Released under the [MIT License](LICENSE).
 
