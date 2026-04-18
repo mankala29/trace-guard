@@ -8,7 +8,7 @@ import json
 import pytest
 from deepeval.test_case import LLMTestCase
 
-from deepeval_metrics import (
+from metrics.deepeval_metrics import (
     ContextSensitivityMetric,
     FraudAccuracyMetric,
     ReasoningFidelityMetric,

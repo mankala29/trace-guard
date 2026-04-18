@@ -21,9 +21,9 @@ from deepeval import evaluate as deepeval_evaluate
 from deepeval.test_case import LLMTestCase
 from dotenv import load_dotenv
 
-from classify import classify_pass3
-from context_builder import build_all_contexts
-from deepeval_metrics import (
+from core.classify import classify_pass3
+from core.context_builder import build_all_contexts
+from metrics.deepeval_metrics import (
     ContextSensitivityMetric,
     FraudAccuracyMetric,
     GroundedAccuracyMetric,

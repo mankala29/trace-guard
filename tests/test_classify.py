@@ -7,7 +7,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from classify import _parse_response, classify, classify_pass3
+from core.classify import _parse_response, classify, classify_pass3
 
 
 # ── _parse_response ────────────────────────────────────────────────────────────
@@ -61,8 +61,8 @@ def _make_mock_response(text: str):
     return response
 
 
-@patch("classify.time.sleep")
-@patch("classify._get_client")
+@patch("core.classify.time.sleep")
+@patch("core.classify._get_client")
 class TestClassifyRetry:
     def _make_429(self):
         from mistralai.client.errors.sdkerror import SDKError
@@ -126,7 +126,7 @@ class TestClassifyRetry:
         assert mock_client.chat.complete.call_count == 1
 
 
-@patch("classify._get_client")
+@patch("core.classify._get_client")
 class TestClassify:
     def test_returns_fraud(self, mock_get_client):
         mock_client = MagicMock()
@@ -168,7 +168,7 @@ class TestClassify:
 
 # ── classify_pass3 (mocked) ────────────────────────────────────────────────────
 
-@patch("classify.classify")
+@patch("core.classify.classify")
 class TestClassifyPass3:
     def _fraud_result(self, reason="Caller requested credentials."):
         return {"prediction": "FRAUD", "reason": reason, "raw_response": f"PREDICTION: FRAUD\nREASON: {reason}"}

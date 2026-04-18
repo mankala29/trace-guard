@@ -88,7 +88,7 @@ class TestReasoningQuality:
 SINGLE_MODEL = ["open-mistral-nemo"]
 
 
-@patch("evaluate.classify_pass3")
+@patch("evaluate.classify_pass3")  # patched at import site in evaluate.py
 class TestRunPipeline:
     def test_row_count_single_model(self, mock_classify):
         mock_classify.return_value = _make_pass3_result("FRAUD")

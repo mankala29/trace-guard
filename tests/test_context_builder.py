@@ -5,7 +5,7 @@ Unit tests for context_builder.py — pure functions, no API calls.
 
 import pytest
 
-from context_builder import (
+from core.context_builder import (
     _detect_signals,
     _dialogue_to_text,
     build_all_contexts,

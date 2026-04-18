@@ -29,8 +29,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from classify import classify_pass3
-from context_builder import build_all_contexts
+from core.classify import classify_pass3
+from core.context_builder import build_all_contexts
 from evaluate import MODELS, CONTEXT_TYPES, _normalise_label
 
 load_dotenv()
