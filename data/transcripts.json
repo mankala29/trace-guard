@@ -1,0 +1,366 @@
+[
+  {
+    "id": "T001",
+    "label": "fraud",
+    "fraud_type": "bank_impersonation",
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, this is Michael from Chase Bank's fraud prevention department. We've detected suspicious activity on your account ending in 4821."},
+      {"speaker": "Recipient", "text": "Oh no, what kind of activity?"},
+      {"speaker": "Caller", "text": "Several unauthorized transfers totaling $3,200. To stop them, I need to verify your identity. Can you confirm your full account number and online banking password?"},
+      {"speaker": "Recipient", "text": "That sounds serious. Should I be worried?"},
+      {"speaker": "Caller", "text": "Very. If you don't act in the next 10 minutes, your account will be frozen and the funds will be gone. I need your password now to reverse the transfers."},
+      {"speaker": "Recipient", "text": "Okay, okay. My password is..."},
+      {"speaker": "Caller", "text": "Thank you. Now I also need the one-time code we just sent to your phone to complete the reversal."}
+    ]
+  },
+  {
+    "id": "T002",
+    "label": "fraud",
+    "fraud_type": "irs_tax_threat",
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "This is Officer Davis calling from the Internal Revenue Service. You have an outstanding tax debt of $5,847 and a warrant has been issued for your arrest."},
+      {"speaker": "Recipient", "text": "What? I filed my taxes. There must be a mistake."},
+      {"speaker": "Caller", "text": "There is no mistake. You have 45 minutes to pay or federal agents will come to your home. Do not contact a lawyer — this is a federal matter and doing so will complicate things."},
+      {"speaker": "Recipient", "text": "How do I pay?"},
+      {"speaker": "Caller", "text": "You must pay immediately using Google Play gift cards. Buy $500 cards and call us back with the redemption codes. This is the only way to avoid arrest today."},
+      {"speaker": "Recipient", "text": "This doesn't sound right..."},
+      {"speaker": "Caller", "text": "Are you questioning a federal officer? That can be added to your charges. You need to act now or face arrest."}
+    ]
+  },
+  {
+    "id": "T003",
+    "label": "fraud",
+    "fraud_type": "tech_support",
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, I'm calling from Microsoft Security Center. Our system has detected that your computer is infected with a dangerous virus that is stealing your banking information."},
+      {"speaker": "Recipient", "text": "I haven't noticed anything wrong with my computer."},
+      {"speaker": "Caller", "text": "That's exactly what the malware wants you to think. It's running silently. I need you to download a remote access tool so our technician can fix it immediately before your financial data is compromised."},
+      {"speaker": "Recipient", "text": "What tool do I download?"},
+      {"speaker": "Caller", "text": "Go to anydesk.com and download AnyDesk. Once you install it, give me the ID number and I'll connect to remove the virus. There's a $299 cleaning fee but we'll refund it once we confirm the virus is removed."},
+      {"speaker": "Recipient", "text": "Okay, it's downloading now."},
+      {"speaker": "Caller", "text": "Perfect. While you wait, can you also open your online banking? We need to check if any transfers have already been made."}
+    ]
+  },
+  {
+    "id": "T004",
+    "label": "fraud",
+    "fraud_type": "grandparent_scam",
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Grandma? It's me, Danny. I'm in really bad trouble and I need your help. Please don't tell mom and dad."},
+      {"speaker": "Recipient", "text": "Danny? What happened? Are you okay?"},
+      {"speaker": "Caller", "text": "I got in a car accident in Canada and someone got hurt. I'm in jail and my lawyer says I need $8,000 bail money today or I'll stay locked up. Please don't tell anyone — it's so embarrassing."},
+      {"speaker": "Recipient", "text": "Oh my God, Danny. Of course I'll help. How do I send the money?"},
+      {"speaker": "Caller", "text": "My lawyer will call you in a minute. He needs you to wire the money to his account. And grandma — please keep this between us. Mom would be devastated."},
+      {"speaker": "Recipient", "text": "Okay, I'll wait for his call. Should I tell grandpa?"},
+      {"speaker": "Caller", "text": "No! Nobody can know. Just have the money ready. I love you, grandma."}
+    ]
+  },
+  {
+    "id": "T005",
+    "label": "fraud",
+    "fraud_type": "prize_scam",
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Congratulations! You've been selected as a winner in the Publishers Clearing House Sweepstakes. You've won $850,000 and a new Mercedes-Benz!"},
+      {"speaker": "Recipient", "text": "Really? I don't remember entering."},
+      {"speaker": "Caller", "text": "You were automatically entered when you subscribed to any of our magazines. To claim your prize, you just need to pay a $350 processing and insurance fee."},
+      {"speaker": "Recipient", "text": "Why do I have to pay to get my prize?"},
+      {"speaker": "Caller", "text": "It's standard. The government requires insurance on large cash prizes. Once you send the fee via Zelle to our processing agent, we'll deliver your check and car within 48 hours."},
+      {"speaker": "Recipient", "text": "Can I pay after I receive the prize?"},
+      {"speaker": "Caller", "text": "I'm afraid not. Policy requires the fee upfront. And this offer expires today — if you don't claim it, we'll move to the next winner. You'd be giving up $850,000!"}
+    ]
+  },
+  {
+    "id": "T006",
+    "label": "fraud",
+    "fraud_type": "utility_shutoff",
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "This is an urgent message from Pacific Gas and Electric. Your account has a past due balance of $412 and service will be disconnected in 2 hours unless immediate payment is made."},
+      {"speaker": "Recipient", "text": "Two hours? I pay my bills. Let me check my account."},
+      {"speaker": "Caller", "text": "There's no time to check online — the disconnection order has already been processed. Our technician is scheduled. You need to pay right now to stop it."},
+      {"speaker": "Recipient", "text": "How do I pay to stop it?"},
+      {"speaker": "Caller", "text": "You can pay by purchasing a $412 MoneyPak card from any CVS and calling us back with the card number. That's the fastest way to prevent disconnection today."},
+      {"speaker": "Recipient", "text": "I've never paid my utility bill with a gift card before."},
+      {"speaker": "Caller", "text": "We added this option last month for urgent cases. The disconnection truck is already dispatched. You have maybe 90 minutes."}
+    ]
+  },
+  {
+    "id": "T007",
+    "label": "fraud",
+    "fraud_type": "investment_pitch",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, I'm James from Pinnacle Capital Group. We have a limited opening in our private equity fund that's been generating 34% annual returns for accredited investors."},
+      {"speaker": "Recipient", "text": "How did you get my number?"},
+      {"speaker": "Caller", "text": "We work with a curated list of high-net-worth individuals. Your financial profile matched our criteria. This opportunity isn't available to the general public."},
+      {"speaker": "Recipient", "text": "I'm interested but I'd want to do due diligence first."},
+      {"speaker": "Caller", "text": "Of course, I can send you our prospectus. But I should mention — this tranche closes in 72 hours and we have 3 remaining slots. Last quarter investors saw $47,000 return on a $50,000 minimum investment."},
+      {"speaker": "Recipient", "text": "That seems very high. Is the fund SEC-registered?"},
+      {"speaker": "Caller", "text": "We operate under a Regulation D exemption which allows us to offer better returns without the overhead of full registration. That's exactly how we beat the market consistently."}
+    ]
+  },
+  {
+    "id": "T008",
+    "label": "fraud",
+    "fraud_type": "bank_refund_verification",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, this is Sarah from Wells Fargo's customer relations team. I'm calling because you're eligible for a refund on account fees charged in error over the past 18 months."},
+      {"speaker": "Recipient", "text": "Oh, okay. How much is the refund?"},
+      {"speaker": "Caller", "text": "It's $127.50. To process it, I just need to verify some account details so we send the refund to the right place. Can you confirm the last four digits of your Social Security number?"},
+      {"speaker": "Recipient", "text": "It's 4832."},
+      {"speaker": "Caller", "text": "Thank you. And to verify this is your account, I need you to confirm your online banking username — just so we make sure the refund posts correctly."},
+      {"speaker": "Recipient", "text": "Is this really necessary? It's a small refund."},
+      {"speaker": "Caller", "text": "Absolutely — it's for your protection. We don't want the refund going to the wrong account. This call is also being recorded for compliance purposes."}
+    ]
+  },
+  {
+    "id": "T009",
+    "label": "fraud",
+    "fraud_type": "delivery_customs_fee",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, this is a message from FedEx International. We're holding a package addressed to you from London, UK. There's a customs clearance fee of $47 that must be paid before we can release the item."},
+      {"speaker": "Recipient", "text": "I wasn't expecting a package from London. Who sent it?"},
+      {"speaker": "Caller", "text": "Our records show it's a gift shipment. The sender's name is partially obscured on the customs form. The package contains jewelry valued at $2,300."},
+      {"speaker": "Recipient", "text": "How do I pay the fee?"},
+      {"speaker": "Caller", "text": "I'll text you a link to our secure payment portal. You can pay by card and then we'll deliver within 24 hours. If not paid within 6 hours, the package is returned to sender."},
+      {"speaker": "Recipient", "text": "Can I just pay when it arrives?"},
+      {"speaker": "Caller", "text": "Unfortunately customs fees must be prepaid — it's an international requirement. The link I'm sending expires in 2 hours. Should I send it to this number?"}
+    ]
+  },
+  {
+    "id": "T010",
+    "label": "fraud",
+    "fraud_type": "insurance_overpayment",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Good afternoon, I'm calling from Aetna Health Insurance. Our billing audit identified that you were overcharged on your premium for the last 8 months. We owe you a refund of $384."},
+      {"speaker": "Recipient", "text": "Really? That would be great. How does the refund work?"},
+      {"speaker": "Caller", "text": "We can process it directly to your checking account today. I just need to verify your routing number and account number to initiate the transfer."},
+      {"speaker": "Recipient", "text": "My bank account number?"},
+      {"speaker": "Caller", "text": "Yes — it's the quickest way. We could mail a check but that takes 6 to 8 weeks. A direct deposit will arrive in 2 business days. It's completely secure."},
+      {"speaker": "Recipient", "text": "I guess that's fine. My routing number is 021000021."},
+      {"speaker": "Caller", "text": "And the account number? Then I can submit the refund right now while you're on the line."}
+    ]
+  },
+  {
+    "id": "T011",
+    "label": "fraud",
+    "fraud_type": "medical_billing",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, I'm calling from Riverside Medical Center's billing department. You have an outstanding balance of $892 from a visit on March 14th."},
+      {"speaker": "Recipient", "text": "I don't remember having a visit in March."},
+      {"speaker": "Caller", "text": "It was an outpatient procedure. Your insurance covered the majority but this is your co-pay responsibility. Your account is 90 days past due."},
+      {"speaker": "Recipient", "text": "I'd need to see the bill before I pay anything."},
+      {"speaker": "Caller", "text": "I can email it after we process payment, but we're required to collect today to avoid sending this to collections. I can take a card number now and email the itemized bill within the hour."},
+      {"speaker": "Recipient", "text": "Sending to collections for $892 without sending a bill?"},
+      {"speaker": "Caller", "text": "Three notices were mailed to your address on file. If you've moved, we may have the wrong address — which is why I'm calling personally. I really want to help you avoid a collections impact on your credit."}
+    ]
+  },
+  {
+    "id": "T012",
+    "label": "fraud",
+    "fraud_type": "job_equipment_fee",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, congratulations — you've been selected for the remote data entry position you applied for at DataBridge Solutions. I'm calling to get you onboarded this week."},
+      {"speaker": "Recipient", "text": "Oh great! I did apply for a few remote jobs."},
+      {"speaker": "Caller", "text": "Wonderful. The position pays $25 per hour and is fully remote. Before we ship your equipment, we need a $200 refundable deposit to cover the laptop and peripherals."},
+      {"speaker": "Recipient", "text": "A deposit? Most employers don't charge for equipment."},
+      {"speaker": "Caller", "text": "We do for remote positions to ensure equipment is returned. It's fully refunded after 90 days of employment. You'll also earn it back in your first week at $25 per hour."},
+      {"speaker": "Recipient", "text": "How do I pay the deposit?"},
+      {"speaker": "Caller", "text": "We accept Zelle or Venmo for the fastest processing. Once we receive it, we ship equipment Monday and you start Wednesday."}
+    ]
+  },
+  {
+    "id": "T013",
+    "label": "fraud",
+    "fraud_type": "charity_fraud",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, I'm calling on behalf of the Children's Cancer Research Alliance. We're collecting donations to fund pediatric cancer trials that have shown remarkable results."},
+      {"speaker": "Recipient", "text": "I support cancer research. What kind of trials?"},
+      {"speaker": "Caller", "text": "Immunotherapy trials at six major hospitals. Last year your donation helped fund research that extended the lives of 47 children. Even $50 funds three days of a child's treatment."},
+      {"speaker": "Recipient", "text": "I'd want to verify the charity before donating."},
+      {"speaker": "Caller", "text": "Of course. But I should mention that our matching donor program ends tonight at midnight — your gift will be doubled if you donate before then. We'd hate for you to miss that."},
+      {"speaker": "Recipient", "text": "Can you spell the organization name so I can look it up?"},
+      {"speaker": "Caller", "text": "Absolutely, but our online presence is limited — we're small and prefer to put donations toward research, not marketing. The quickest way is to give your card number now and we'll send a receipt right away."}
+    ]
+  },
+  {
+    "id": "T014",
+    "label": "fraud",
+    "fraud_type": "psychological_isolation",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Mom, it's me. Listen carefully. I can't explain everything right now but I'm in serious danger and I need your help. You cannot tell anyone — not dad, not my sister, no one."},
+      {"speaker": "Recipient", "text": "What's happening? You don't sound right."},
+      {"speaker": "Caller", "text": "I know. I'm scared. I borrowed money from some people and they're threatening me. I need $15,000 today or something bad will happen. Please, you're the only one I can trust."},
+      {"speaker": "Recipient", "text": "Have you called the police?"},
+      {"speaker": "Caller", "text": "No police! They'll make it worse. These people are watching me — they might be watching you too. Promise me you won't tell anyone, not even dad. He'll just panic."},
+      {"speaker": "Recipient", "text": "I'm very worried. How do I know this is real?"},
+      {"speaker": "Caller", "text": "You know my voice, mom. I'm desperate. Please just wire the money and I'll explain everything after. If you tell anyone, these people will find out and it'll be too late."},
+      {"speaker": "Recipient", "text": "Okay, I won't tell anyone. How do I send it?"},
+      {"speaker": "Caller", "text": "Wire it to this account. And mom — keep your phone on. I may need you to send more. Don't go anywhere and don't call anyone. I'll explain everything soon."}
+    ]
+  },
+  {
+    "id": "T015",
+    "label": "fraud",
+    "fraud_type": "2fa_manipulation",
+    "subtle": true,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, this is Alex from your bank's security team. We detected a login attempt from an unfamiliar device in another state and I'm calling to verify it was you."},
+      {"speaker": "Recipient", "text": "No, that wasn't me. I'm at home."},
+      {"speaker": "Caller", "text": "I thought as much. I'm locking that device out right now. To confirm your identity and protect your account, our system is sending you a verification code. Please read it to me once you receive it."},
+      {"speaker": "Recipient", "text": "Okay, I just got a text. The code is 847291."},
+      {"speaker": "Caller", "text": "Thank you. Your account is now secured. I'll also need to reverify your registered email address to complete the security update."},
+      {"speaker": "Recipient", "text": "It's jsmith at gmail dot com."},
+      {"speaker": "Caller", "text": "Perfect. One last thing — to fully close out this security incident, I need to confirm the temporary PIN we generated. It should arrive in another text shortly. Please read that one to me as well."}
+    ]
+  },
+  {
+    "id": "T016",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, this is an automated message from Bank of America. We have detected unusual activity on your debit card ending in 7743 and have placed a temporary hold as a precaution."},
+      {"speaker": "Recipient", "text": "Oh okay."},
+      {"speaker": "Caller", "text": "To review the transactions in question, please log in to your account at bankofamerica.com or call the number on the back of your card. We will never ask for your PIN or password over the phone."},
+      {"speaker": "Recipient", "text": "Got it, I'll log in and check. Thanks."},
+      {"speaker": "Caller", "text": "Thank you for being a Bank of America customer. Goodbye."}
+    ]
+  },
+  {
+    "id": "T017",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, may I speak with Patricia Chen?"},
+      {"speaker": "Recipient", "text": "This is Patricia."},
+      {"speaker": "Caller", "text": "Hi Patricia, this is Angela calling from Dr. Nguyen's office. I'm just calling to remind you of your annual physical scheduled for tomorrow at 10:30 AM."},
+      {"speaker": "Recipient", "text": "Oh yes, I'll be there. Do I need to bring anything?"},
+      {"speaker": "Caller", "text": "Just your insurance card and a list of any current medications. Arrive about 10 minutes early to fill out a quick update form. See you tomorrow!"},
+      {"speaker": "Recipient", "text": "Perfect, thank you for the reminder."}
+    ]
+  },
+  {
+    "id": "T018",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, I'm calling from Amazon customer service regarding order number 114-8837291. Is this a good time?"},
+      {"speaker": "Recipient", "text": "Yes, go ahead."},
+      {"speaker": "Caller", "text": "Your order was damaged during shipping and we've already issued a full refund to your original payment method. You should see it in 3 to 5 business days. No action needed on your end."},
+      {"speaker": "Recipient", "text": "Oh that's a shame, I was looking forward to that item. Can I reorder?"},
+      {"speaker": "Caller", "text": "Absolutely — you can reorder on the website and you'll get the same price. We've also added a $10 coupon to your account for the inconvenience. Is there anything else I can help you with?"},
+      {"speaker": "Recipient", "text": "No, that's great. Thank you."}
+    ]
+  },
+  {
+    "id": "T019",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hey dad, it's Lisa. Are you home right now?"},
+      {"speaker": "Recipient", "text": "Hi sweetheart, yes I'm home. Everything okay?"},
+      {"speaker": "Caller", "text": "Everything's fine! I'm coming over Sunday for dinner — is that okay? I was thinking I could bring that pasta dish you like."},
+      {"speaker": "Recipient", "text": "Of course, that would be wonderful. Your mother will be thrilled."},
+      {"speaker": "Caller", "text": "Great! I'll be there around 5. Do you need me to pick anything up on the way?"},
+      {"speaker": "Recipient", "text": "Maybe some of that good bread from the bakery. See you Sunday!"}
+    ]
+  },
+  {
+    "id": "T020",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, I'm calling from State Farm regarding your homeowner's policy renewal. Your current policy expires June 1st and I wanted to go over your options."},
+      {"speaker": "Recipient", "text": "Sure, I've been expecting this call."},
+      {"speaker": "Caller", "text": "Your current premium is $1,340 per year. We're offering the same coverage at $1,295 if you renew now, or I can walk you through some adjustments to better match your current situation."},
+      {"speaker": "Recipient", "text": "What kinds of adjustments?"},
+      {"speaker": "Caller", "text": "We could increase your deductible to lower the premium further, or add riders for specific valuables. There's no pressure — your current policy stays active until June 1st regardless. I can email you a comparison."},
+      {"speaker": "Recipient", "text": "Please email it and I'll review and call you back."},
+      {"speaker": "Caller", "text": "Absolutely. I'll send it to the email on file. My direct line is on the email if you have questions."}
+    ]
+  },
+  {
+    "id": "T021",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "This is an automated notification from ConEd. A planned maintenance outage is scheduled for your area on Thursday, April 22nd, from 9 AM to 2 PM."},
+      {"speaker": "Recipient", "text": "Okay."},
+      {"speaker": "Caller", "text": "No action is required. Power will be restored by 2 PM. If you have medical equipment that requires electricity, please call 1-800-752-6633 to make special arrangements. Thank you."},
+      {"speaker": "Recipient", "text": "Good to know, thank you."}
+    ]
+  },
+  {
+    "id": "T022",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hello, may I speak with a parent or guardian of Marcus Webb?"},
+      {"speaker": "Recipient", "text": "This is his mother. Is something wrong?"},
+      {"speaker": "Caller", "text": "Nothing serious — this is Mr. Okafor, Marcus's history teacher at Westview Middle School. I wanted to let you know Marcus gave an excellent class presentation today. He clearly put a lot of work into it."},
+      {"speaker": "Recipient", "text": "Oh, that's wonderful to hear! He was nervous about it."},
+      {"speaker": "Caller", "text": "He did great. I also wanted to mention the spring project is due May 3rd. I'll be sending home a rubric tomorrow. Feel free to email me if you have any questions."},
+      {"speaker": "Recipient", "text": "Thank you so much for calling, he'll be so happy to hear that."}
+    ]
+  },
+  {
+    "id": "T023",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, this is Rena from Acme Office Supplies following up on the quote we sent last Tuesday for your Q2 paper order."},
+      {"speaker": "Recipient", "text": "Yes, I was meaning to call you. We're still reviewing it internally."},
+      {"speaker": "Caller", "text": "No problem at all. I wanted to let you know that pricing on the 20lb copy paper is valid through the end of the month. After that it may adjust due to a supplier price change."},
+      {"speaker": "Recipient", "text": "Good to know. I think we'll have a decision by Friday."},
+      {"speaker": "Caller", "text": "Perfect, I'll follow up Friday afternoon then. Thanks for your time."}
+    ]
+  },
+  {
+    "id": "T024",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hey! It's Tom. Are you coming to the game Saturday?"},
+      {"speaker": "Recipient", "text": "Tom! Hey man. Yeah I should be able to make it. What time?"},
+      {"speaker": "Caller", "text": "Kickoff is at 2. A bunch of us are meeting at Murphy's before — around noon for food and drinks. You in?"},
+      {"speaker": "Recipient", "text": "Definitely. Should I bring anything?"},
+      {"speaker": "Caller", "text": "Just yourself. Steve's handling the tickets. Text him your name so he knows how many to grab."},
+      {"speaker": "Recipient", "text": "Will do. See you Saturday!"}
+    ]
+  },
+  {
+    "id": "T025",
+    "label": "not_fraud",
+    "fraud_type": null,
+    "subtle": false,
+    "dialogue": [
+      {"speaker": "Caller", "text": "Hi, this is Claire from Realty One Group. I'm following up on your Zillow inquiry about the property at 4418 Maple Street."},
+      {"speaker": "Recipient", "text": "Yes, I submitted that inquiry yesterday. Is it still available?"},
+      {"speaker": "Caller", "text": "It is! The asking price is $485,000 and it's been on the market for 12 days. Would you like to schedule a showing? I have availability tomorrow at 11 AM or Thursday at 4 PM."},
+      {"speaker": "Recipient", "text": "Thursday at 4 works for me."},
+      {"speaker": "Caller", "text": "Perfect, I'll send a calendar invite to the email you used on Zillow. The property has 3 beds, 2 baths, and a recently updated kitchen. Looking forward to showing it to you!"},
+      {"speaker": "Recipient", "text": "Great, see you Thursday."}
+    ]
+  }
+]
