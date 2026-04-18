@@ -6,6 +6,20 @@ Built around 25 synthetic phone call transcripts (15 fraud, 10 non-fraud) evalua
 
 ---
 
+## Independent Work Disclosure
+
+This project was conceived, designed, and developed entirely by Sweta Mankala as an independent personal research initiative.
+
+- Developed exclusively on personal time, outside of any employment hours
+- No employer equipment, systems, facilities, or resources were used at any stage
+- Contains no proprietary information, trade secrets, or confidential data belonging to any employer or third party
+- All transcripts are fully synthetic and were created solely for this research; they do not represent or derive from any real individuals, organisations, or cases
+- This project is not affiliated with, endorsed by, or connected to any current or former employer
+
+© 2026 Sweta Mankala. Released under the [MIT License](LICENSE).
+
+---
+
 ## Motivation
 
 Fraud calls are won or lost on context. A raw transcript stripped of framing looks different from one annotated with intent and key signals. This experiment asks: does giving a model better context actually help, or does model size matter more? And when a model says "this is fraud because of X" — is it actually reading X?
